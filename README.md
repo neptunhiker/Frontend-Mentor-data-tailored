@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/neptunhiker/Frontend-Mentor-workit)
-- Live Site URL: [Add live site URL here](https://neptunhiker.github.io/Frontend-Mentor-workit/starter-code/index.html)
+- Solution URL: [github repository](https://github.com/neptunhiker/Frontend-Mentor-workit)
+- Live Site URL: [live url](https://neptunhiker.github.io/Frontend-Mentor-workit/starter-code/index.html)
 
 ## My process
 
