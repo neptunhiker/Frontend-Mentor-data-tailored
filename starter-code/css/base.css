@@ -1,5 +1,23 @@
+@font-face {
+    font-family: ManropeRegular;
+    src: url("../assets/fonts/manrope/static/Manrope-Regular.ttf");}
+
+@font-face {
+    font-family: Fraunces;
+    src: url("../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: InterExtraBold;
+    src: url(../assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+
 body {
     margin: 0;
+    font-family: ManropeRegular, Arial;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .first {
@@ -46,7 +64,9 @@ body {
 }
 
 .data {
-    font-size: 48px;
+    font-family: Fraunces;
+    font-size: 50px;
+    line-height: 60px;
     text-align: center;
     padding-left: 16px;
     padding-right: 16px;
@@ -167,7 +187,9 @@ body {
 }
 
 .founder-header {
-    font-size: 28px;
+    font-family: Fraunces;
+    font-size: 32px;
+    line-height: 48px;
     font-weight: bold;
 }
 
@@ -202,13 +224,13 @@ body {
     justify-content: center;
 }
 .get-in-touch {
-margin-top: 74px;
-margin-bottom: 74px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-width: 116px;
+    margin-top: 74px;
+    margin-bottom: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 116px;
 }
 
 .workit-2 {
@@ -216,9 +238,9 @@ width: 116px;
 }
 
 .social {
-display: flex;
-width: 116px;
-justify-content: space-between;
+    display: flex;
+    width: 116px;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
@@ -289,6 +311,8 @@ justify-content: space-between;
 
     .data {
         font-size: 80px;
+        font-family: Fraunces;
+        line-height:80px;
         width: 600px;
     }
 
